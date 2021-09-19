@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ninediv</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            p {
+                text-align: center;
+            }
+            #box {
+                height: 600px; width: 100%;
+                background-image: url(green.jpg);
+            }
+            #left {
+                height: 600px; width: 35%;
+                float: left;
+            }
+            #centre {
+                height: 600px; width: 35%;
+                float: left;
+            }
+            #right {
+                height: 600px; width: 29%;
+                float: left;
+            }
+            #upper {
+                height: 180px; width: 99%;
+                border-style: none;
+            }
+            #middle {
+                height: 200px; width: 99%;
+                border-style: solid;
+                border-color: seashell;
+                padding: 50px;
+            }
+            #lower {
+                height: 200px; width: 99%;
+                border-style: ridge;
+                border-color: seashell;
+            }
+            #one {
+                height: 200px; width: 99%;
+                border-style: dotted;
+                border-color: seashell;
+            }
+            #two {
+                height: 200px; width: 99%;
+                border-style: double;
+                border-color: seashell;
+            }
+            #three {
+                height: 200px; width: 99%;
+                border-style: inset;
+                border-color: seashell;
+            }
+            #top {
+                height: 200px; width: 100%;
+                border-style: dashed;
+                border-color: seashell;
+            }
+            #mid {
+                height: 200px; width: 100%;
+                border-style: groove;
+                border-color: seashell;
+            }
+            #bottom {
+                height: 200px; width: 100%;
+                border-style: outset;
+                border-color: seashell;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+<div id="left">
+    <div id="upper">
+        <p>NONE</p>
+    </div>
+    <div id="middle">
+        <p>SOLID</p>
+    </div>
+    <div id="lower">
+        <p>RIDGE</p>
+    </div>
+</div>
+<div id="centre">
+    <div id="one"><p>DOTTED</p></div>
+    <div id="two"><p>DOUBLE</p></div>
+    <div id="three"><p>INSET</p></div>
+</div>
+<div id="right">
+    <div id="top"><p>DASHED</p></div>
+    <div id="mid"><p>GROOVE</p></div>
+    <div id="bottom"><p>OUTSET</p></div>
+</div>
+        </div>
+    </body>
+</html>
