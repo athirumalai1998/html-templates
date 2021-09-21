@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cssborder</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            #box {
+                height: 600px; width: 100%;
+                background-image: url(blue.jpg);
+                padding: 200px;
+            }
+            #inner {
+                height: 250px; width: 40%;
+                border-style: solid;
+                border-width: 20px;
+                border-radius: 30px;
+                border-color: red blue yellow green;
+                margin: auto;
+            }
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <div id="inner">
+                <h1>CSS</h1>
+                <h1 style="color: red;">Border</h1>
+                <p>&</p>
+                <h1 style="color: purple;">Border Image</h1>
+            </div>
+        </div>
+    </body>
+</html>
