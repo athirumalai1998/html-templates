@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>doublediv</title>
+        <style>
+            #box {
+                height: 600px; width: 100%;
+                border: 1px solid black;
+            }
+            #upper {
+                height: 80px; width: 100%;
+                background-color: green;
+            }
+            #middle {
+                height: 420px; width: 100%;
+            }
+            #left {
+                height: 420px; width: 80%;
+                background-color: blue;
+                float: left;
+            }
+            #right {
+                height: 420px; width: 20%;
+                background-color: yellow;
+                float: left;
+            }
+            #lower {
+                height: 100px; width: 100%;
+                background-color: brown;
+            }
+            @media only screen and (max-width:568px) {
+                #left { width: 100%; height: 320px;}
+                #right {width: 100%; height: 100px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <div id="upper"></div>
+            <div id="middle">
+                <div id="left"></div>
+                <div id="right"></div>
+            </div>
+            <div id="lower"></div>
+        </div>
+    </body>
+</html>
