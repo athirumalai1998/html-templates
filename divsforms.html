@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>divsforms</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+#box {
+    background-image: url(blue.jpg);
+    height: 600px; width: 100%;
+    padding: 200px;
+}
+#inner {
+    background-color:gray;
+    height: 400px; width: 30%;
+    margin: auto;
+    float: left;
+}
+#first {
+    text-align: center;
+    height: 200px; width: 100%;
+}
+#second {
+    background-image: url(Windows_8.jpg);
+    height: 150px; width: 100%;
+}
+#outer {
+    background-color: lightcoral;
+    height: 400px; width: 50%;
+    float: left;
+    }
+    #one{
+        height: 60px; width: 100%;
+    }
+    #two {
+        height: 170px; width: 100%;
+    }
+    #left {
+        height: 170px; width: 50%;
+        float: left;
+    }
+    #right {
+        height: 170px; width: 49%;
+float: left;
+    }
+    #three {
+        height: 70px; width: 100%;
+    }
+    ul {
+ list-style-type: none;
+    }
+    #four {
+        height: 91px; width: 100%;
+        background-color: white;
+    }
+    #buttonone {
+        border-radius: 20px;
+        margin: 40px;
+    }
+    #buttontwo {
+        border-radius: 20px;
+        margin-left: 300px;
+        background-color: gray;
+        color: white;
+    }
+    #weight {
+        width: 75%;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <div id="inner">
+                <div id="first">
+                    <h1>PUPASSURE</h1>
+                </div>
+                <div id="second"></div>
+                
+            </div>
+            <div id="outer">
+                <div id="one">
+                <h1>Yay,puppies! Ensure your pup gets the best care!</h1> </div>
+                <div id="two">
+                    <div id="left">
+                        <form>
+                            <ul>
+                            <li><label for="name">Name</label></li>
+                            <li><input type="text" id="name" name="name" placeholder="Pets Name"></li>
+                            <li><label for="breed">Breed</label></li>
+                            <li><input type="text" id="breed" name="breed" placeholder="Pets Breed"> </li>
+                            <li><label for="gender">Gender</label></li>
+                            <li><input type="text" id="gender" name="gender" placeholder="Female    Male"></li>
+                        </ul>
+                        </form>
+                    </div>
+                    <div id="right">
+                        <p>Upload a photo</p>
+                        <form>
+                            <ul>
+                                <li><label for="birthday">Birthday</label></li>
+                                <li><input type="text" id="birthday" name="birthday" placeholder="MM/DD/YY"></li>
+<li><label for="spayedorneutered">Spayed or Neutered</label></li>
+<li><input type="text" id="spayedorneutered" name="spayedorneutered" placeholder="Spayed   Neutered"></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div id="three">
+                    <form>
+                        <ul> <li>
+                        <label for="weight">Weight</label> </li>
+                        <li><input type="text" id="weight" name="weight" placeholder="0-25lbs   25-50lbs   50-100lbs   100+lbs"> </li>
+                        </ul>
+                    </form>
+                </div>
+                <div id="four">
+                    <button type="button" id="buttonone">Back</button>
+                    <button type="button" id="buttontwo">Next</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
